@@ -11,7 +11,7 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 ## New Project
 
 ```sh
-npx nuxt init -t diizzayy/n3-starter nuxt-app 
+npx nuxi init -t diizzayy/n3-starter nuxt-app 
 ```
 
 ## Install Dependencies
