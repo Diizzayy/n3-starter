@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "prepare": "nuxt prepare",
+    "preview": "nuxt preview",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.ts,.vue .",
+    "lint:fex": "eslint --fix --ext .js,.ts,.vue ."
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "eslint": "latest",
+    "nuxt": "3.0.0-rc.1",
+    "typescript": "latest"
+  }
+}

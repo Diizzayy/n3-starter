@@ -1,0 +1,12 @@
+{
+  "volar.autoCompleteRefs": true,
+
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.fixAll.eslint": true
+  },
+
+  "[vue]": {
+    "editor.defaultFormatter": "johnsoncodehk.volar"
+  }
+}
