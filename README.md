@@ -8,7 +8,13 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 - Stub Nuxt Types on install
 - Prefer [Volar's Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471)
 
-## Setup
+## New Project
+
+```sh
+npx nuxt init -t diizzayy/n3-starter nuxt-app 
+```
+
+## Install Dependencies
 
 Make sure to install the dependencies:
 
