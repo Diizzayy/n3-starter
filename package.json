@@ -7,7 +7,7 @@
     "preview": "nuxt preview",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.ts,.vue .",
-    "lint:fex": "eslint --fix --ext .js,.ts,.vue ."
+    "lint:fix": "eslint --fix --ext .js,.ts,.vue ."
   },
   "devDependencies": {
     "@nuxtjs/eslint-config-typescript": "latest",
