@@ -11,7 +11,44 @@ Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 ## New Project
 
 ```sh
-npx nuxi init -t diizzayy/n3-starter nuxt-app 
+npx nuxi init -t diizzayy/n3-starter nuxt-app
+```
+
+## Prettier as an ESLint Rule
+
+```sh
+# yarn
+yarn add -D prettier eslint-plugin-prettier eslint-config-prettier 
+
+# npm
+npm install -D prettier eslint-plugin-prettier eslint-config-prettier 
+
+# pnpm
+pnpm install -D prettier eslint-plugin-prettier eslint-config-prettier 
+```
+
+### Add Prettier Config
+
+Create a file named `.prettierrc` in the root of your project and add the code below.
+
+```json
+{
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "none"
+}
+```
+
+### Add `plugin:prettier/recommended` as the **LAST** ESLint extension`
+
+```
+{
+  "extends": [
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:prettier/recommended"
+  ]
+}
 ```
 
 ## Install Dependencies
